@@ -11,7 +11,7 @@ const allowedOrigins = [
   process.env.ALLOWED_ORIGIN,
   /\.vercel\.app$/
 ].filter(Boolean);
-
+a.use(cors);
 app.use(cors({
   origin: allowedOrigins,
   credentials: true
