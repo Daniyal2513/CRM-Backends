@@ -1,0 +1,15 @@
+{
+  "name": "crm-backend",
+  "version": "1.0.0",
+  "description": "Backend for a CRM application using Node.js, Express, and MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
